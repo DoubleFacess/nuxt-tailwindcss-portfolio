@@ -90,7 +90,7 @@ export default {
           >77</span
         >
         <span class="block text-md text-ternary-dark dark:text-ternary-light"
-          >Projects completed</span
+          >Progetti completati</span
         >
       </div>
     </div>

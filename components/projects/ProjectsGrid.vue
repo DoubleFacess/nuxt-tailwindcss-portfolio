@@ -75,8 +75,8 @@ export default {
           mb-4
         "
       >
-        Search projects by title or filter by category
-      </h3>
+        Cerca progetti per titolo o categoria
+      </h3><!-- Search projects by title or filter by category -->
       <div
         class="
           flex

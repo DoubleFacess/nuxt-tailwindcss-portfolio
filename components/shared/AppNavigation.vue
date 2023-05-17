@@ -35,7 +35,7 @@ export default {
         sm:py-2
       "
       aria-label="Projects"
-      >Projects</NuxtLink
+      >Progetti</NuxtLink
     >
     <NuxtLink
       to="/about"
@@ -55,7 +55,7 @@ export default {
         dark:border-secondary-dark
       "
       aria-label="About Me"
-      >About Me</NuxtLink
+      >Chi sono</NuxtLink
     >
     <NuxtLink
       to="/contact"
@@ -75,7 +75,7 @@ export default {
         dark:border-secondary-dark
       "
       aria-label="Contact"
-      >Contact</NuxtLink
+      >Contatti</NuxtLink
     >
     <div
       class="
