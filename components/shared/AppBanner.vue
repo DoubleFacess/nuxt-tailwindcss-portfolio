@@ -43,7 +43,7 @@ export default {
           uppercase
         "
       >
-        Hi, Iam Stoman
+        CIAO, SONO VINCENZO NAVARRA
       </h1>
       <p
         class="
@@ -58,11 +58,11 @@ export default {
           text-gray-400
         "
       >
-        A Full-Stack Developer & Design Enthusiast
+        Sono un Full-Stack Developer e Amministratore di Sistema
       </p>
       <div class="flex justify-center sm:block">
         <a
-          href="/Stoman-Resume.pdf"
+          href="/Enzonav-Resume.pdf"
           download=""
           class="
             flex

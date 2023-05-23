@@ -22,17 +22,17 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: require('static/new-images/difalco-website1.png')
+          img: require('static/new-images/list.png')
         },
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: require('static/new-images/difalco-website2.png')
+          img: require('static/new-images/estate.png')
         },
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: "../images/web-project-2.jpg",
+          img: require('static/new-images/difalco-website2.png'),
         },
       ],
       companyInfos: [
@@ -134,17 +134,17 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-1.jpg",
+          img: require('static/new-images/home-admin.png')
         },
         {
           id: uuidv4(),
           title: "Phoenix Digital Agency",
-          img: "../images/web-project-2.jpg",
+          img: require('static/new-images/home-admin1.png')
         },
         {
           id: uuidv4(),
           title: "Phoenix Digital Agency",
-          img: "../images/mobile-project-2.jpg",
+          img: require('static/new-images/home-admin2.png')
         },
       ],
       companyInfos: [
@@ -747,11 +747,11 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio: "Sistemista per più di vent’anni e appassionato di tecnologie web sin dai primi anni 2000, con una profonda esperienza nello sviluppo di applicazioni web dinamiche in php e database relazionali, oltre che nell’approfondimento del linguaggio Javascript e dell’interazione con il backend attraverso Ajax. Dal 2018 ho abbracciato lo sviluppo di Node.js e delle librerie Vuejs e React, nonchè del framework Nuxt.js. Alla ricerca di nuovi stimoli e spunti, curioso e attento agli ultimi sviluppi che l'IA sta facendo in molti campi, sopratutto nellla nuova offerta di formidabili strumenti di sviluppo tutti in itinere.",
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      /*bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",*/
     },
   ],
   copyrightDate: new Date().getFullYear(),
