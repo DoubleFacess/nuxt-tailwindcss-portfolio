@@ -258,9 +258,9 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
-      title: "Project Management UI",
+      title: "Shopping Play",
       category: "UI/UX Design",
-      img: "images/ui-project-1.jpg",
+      img: require('static/new-images/shop-home.png'),
       publishDate: "Nov 04, 2021",
       tag: "UI / Frontend",
       clientTitle: "About Client",
