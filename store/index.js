@@ -74,14 +74,14 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Quando un utente accede al sito web, può cercare immobili in vendita o in affitto tramite un'ampia gamma di filtri e opzioni di ricerca. I risultati restituiscono gli immobili corrispondenti memorizzati nel database MySQL, con informazioni dettagliate su caratteristiche, prezzo, ubicazione e contatti. L'utente può visualizzare le schede complete di qualsiasi immobile che lo interessa e contattare immediatamente l'agenzia."
+            "Quando un utente accede al nostro sito web, ha la possibilità di cercare immobili in vendita o in affitto utilizzando una vasta gamma di filtri e opzioni di ricerca. Grazie alla nostra efficiente piattaforma, i risultati vengono restituiti in modo tempestivo, offrendo una selezione di immobili corrispondenti ai criteri desiderati. Tutti i dati relativi agli immobili sono memorizzati nel nostro affidabile database MySQL, che contiene informazioni dettagliate sulle caratteristiche, i prezzi, le ubicazioni e i contatti."
         },
-        /*
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "L'utente ha la comodità di visualizzare schede complete per ciascun immobile di interesse, con tutte le informazioni necessarie. Inoltre, abbiamo implementato nuove funzionalità che permettono agli utenti di richiedere appuntamenti per visitare gli immobili direttamente tramite il sito web. Semplicemente selezionando l'immobile desiderato, gli utenti possono scegliere una data e un orario di visita e inviare la richiesta all'agenzia responsabile. Oltre a ciò, offriamo anche la possibilità agli utenti di inviare la propria scheda immobile, qualora abbiano una proprietà da vendere o affittare. Utilizzando un modulo appositamente progettato, gli utenti possono inserire tutte le informazioni pertinenti sulla loro proprietà e inviarle direttamente alle agenzie partner tramite il nostro sito web. Con queste nuove funzionalità, il nostro sito web offre un'esperienza completa e interattiva, consentendo agli utenti di cercare, visualizzare, richiedere appuntamenti e persino inviare le proprie schede immobiliari, tutto in un unico luogo comodo e intuitivo.",
         },
+        /*
         {
           id: uuidv4(),
           details:
@@ -179,42 +179,37 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Il Pannello di Controllo di Immobiliare di Falco consente all'agenzia di gestire in modo centralizzato e controllato tutte le attività e i dati del sito web. Attraverso la sua interfaccia utente, l'agenzia può: ",
+            "Il Pannello di Controllo di Immobiliare di Falco rappresenta una potente risorsa per le agenzie immobiliari, offrendo un sistema centralizzato e controllato per gestire tutte le attività e i dati del sito web. Attraverso la sua intuitiva interfaccia utente, l'agenzia può svolgere una serie di operazioni essenziali, tra cui:",
         },
         {
           id: uuidv4(),
           details:
-          "• Aggiungere nuovi immobili al database con rapide procedure guidate. Specificare dettagli come ubicazione, caratteristiche, prezzo, immagini e descrizione. ",
+          "• Aggiungere nuovi immobili al database con procedure guidate e veloci. È possibile specificare dettagli cruciali come l'ubicazione, le caratteristiche, il prezzo, le immagini e una descrizione completa."
         },
         {
           id: uuidv4(),
           details:
-          "• Modificare o aggiornare facilmente i dettagli di qualsiasi immobile esistente. Cambiare il prezzo, le caratteristiche, le descrizioni, le immagini, gli indirizzi e qualsiasi altra informazione in qualsiasi momento. ",
+          "• Effettuare modifiche o aggiornamenti ai dettagli di qualsiasi immobile esistente in modo semplice e rapido. È possibile modificare il prezzo, le caratteristiche, le descrizioni, le immagini, gli indirizzi e altre informazioni in qualsiasi momento.",
         },
         {
           id: uuidv4(),
           details:
-          "• Eseguire azioni di massa su gruppi di immobili come l'aggiornamento simultaneo dei prezzi in tutta l'offerta. ",
+          "• Eseguire operazioni di massa su gruppi di immobili, come l'aggiornamento simultaneo dei prezzi in tutta l'offerta, per un efficiente aggiornamento dei dati.",
         },
         {
           id: uuidv4(),
           details:
-          "• Filtrare, ordinare e cercare il database immobiliare per trovare rapidamente qualsiasi immobile. ",
+          "• Utilizzare potenti filtri, opzioni di ordinamento e strumenti di ricerca per individuare rapidamente qualsiasi immobile all'interno del database.",
         },
         {
           id: uuidv4(),
           details:
-          "• Eliminare gli immobili venduti o non più in vendita dal database con un solo clic. ",
-        },
+          "• Gestire le autorizzazioni degli utenti per limitare l'accesso a specifiche aree del Pannello di Controllo.",
+        },        
         {
           id: uuidv4(),
           details:
-          "• Gestire le autorizzazioni degli utenti per limitare l'accesso ad aree specifiche del Pannello di Controllo. ",
-        },
-        {
-          id: uuidv4(),
-          details:
-            "Inoltre si garantisce una gestione coerente, coordinata e data-driven di tutte le attività del sito web.  Consente all'agenzia di mantenere aggiornato il proprio database immobiliare, monitorare le prestazioni, analizzare i dati e pianificare le strategie di ottimizzazione più efficaci per il sito web.",
+            "Inoltre, il Pannello di Controllo garantisce una gestione coerente, coordinata e basata sui dati per tutte le attività del sito web. Permette all'agenzia di mantenere il proprio database immobiliare sempre aggiornato, monitorare le prestazioni, analizzare i dati e pianificare le strategie di ottimizzazione più efficaci per il sito web. Con questa soluzione all'avanguardia, le agenzie immobiliari possono gestire in modo efficiente e strategico il proprio sito web per massimizzare il successo e fornire una migliore esperienza agli utenti",
         },
         /*
         {
@@ -480,7 +475,7 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
-      title: "Uber Social App",
+      title: "Gestionale Supremacy",
       category: "Mobile Application",
       img: require('static/images/suprem-dashb.png'),
       publishDate: "Nov 04, 2021",
@@ -592,7 +587,117 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Apple Design System",
+      title: "My Todo",
+      category: "Web Application",
+      img: require('static/images/todo1.png'),
+      publishDate: "Nov 04, 2021",
+      tag: "UI / Mobile",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/web-project-1.jpg",
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/web-project-2.jpg",
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/mobile-project-2.jpg",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Company Ltd",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://company.com",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "555 8888 888",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Nuxt.js",
+        "TailwindCSS",
+        "AdobeXD",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/in/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com",
+        },
+      ],
+    },
+    {
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
+      title: "Test Project",
       category: "Web Application",
       img: require('static/images/todo1.png'),
       publishDate: "Nov 04, 2021",
