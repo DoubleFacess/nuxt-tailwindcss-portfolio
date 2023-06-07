@@ -28,7 +28,7 @@ export default {
     <!-- Check if there are projects and then load -->
     <div v-if="project">
       <!-- Project heading and meta info -->
-      <div>
+      <div>        
         <p
           class="
             font-general-medium
@@ -42,7 +42,7 @@ export default {
             mb-7
           "
         >
-          {{ project.title }}
+          <!--<nuxt-link :to="project.url">-->{{ project.title }}
         </p>
         <div class="flex">
           <div class="flex items-center mr-10">
@@ -79,9 +79,9 @@ export default {
           </div>
         </div>
       </div>
-
       <!-- Project gallery -->
       <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
+        <!--<nuxt-link :to="project.url">-->
         <div
           class="mb-10 sm:mb-0"
           v-for="projectImage in project.projectImages"
@@ -93,7 +93,6 @@ export default {
           />
         </div>
       </div>
-
       <!-- Project info -->
       <div class="block sm:flex gap-0 sm:gap-10 mt-14">
         <!-- Single project left section details -->

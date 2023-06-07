@@ -7,15 +7,16 @@ export const state = () => ({
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
       title: "Immobiliare di Falco",
-      category: "Applicatione Agenzia Immobiliare",
+      category: "Real Estate App",
       img: require('static/new-images/difalco-website.png'),
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend / Nuxt / Api / Codeigniter",
+      url: 'https://www.difalcoimmobiliare.it',
+      publishDate: "Nov 04, 2022",
+      tag: "Frontend / Bootstrap / Nuxt / Api / Auth0 / Codeigniter",
       clientTitle: "Il cliente",
       objectivesTitle: "Obiettivi",
       objectivesDetails:
-        "Applicazione nata per automatizzare e semplificare il processo di ricerca immobiliare per i clientie fornire una piattaforma digitale intuitiva per trovare rapidamente gli immobili di interesse.",
-      techTitle: "Applicazione Agenzia Immobiliare",
+        "Piattaforma online che facilita la ricerca e l'accesso a una vasta selezione di annunci immobiliari nell'area di Agrigento, offrendo agli utenti strumenti e risorse utili per supportare le decisioni legate all'acquisto o all'affitto di una proprietà.",
+      techTitle: "Real Estate Web App",
       detailsTitle: "Challenge",
       socialTitle: "Share This",
       projectImages: [
