@@ -6,40 +6,40 @@ export const state = () => ({
   projects: [
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
-      title: "Immobiliare Di Falco Admin",
-      category: "Web Application",
-      img: "images/web-project-2.jpg",
-      publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend / Backend / Vue / Codeigniter",
-      clientTitle: "About Client",
-      objectivesTitle: "Objective",
+      title: "Immobiliare di Falco",
+      category: "Real Estate App",
+      img: require('static/new-images/difalco-website.png'),
+      publishDate: "Nov 04, 2022",
+      tag: "Frontend / Bootstrap / Nuxt / Api / Auth0 / Codeigniter",
+      clientTitle: "Il cliente",
+      objectivesTitle: "Obiettivi",
       objectivesDetails:
-        "L'obiettivo del progetto è un pannello di controllo per il sito www.difalcoimmobiliare.it, che consentirà all'agenzia immobiliare di gestire facilmente i dati degli immobili e le informazioni sui clienti. Si potrà aggiungere, modificare o eliminare gli immobili esistenti, gestire le informazioni sui clienti e monitorare le attività degli utenti e dell'agenzia.",
-      techTitle: "Tools & Technologies",
+        "Piattaforma online che facilita la ricerca e l'accesso a una vasta selezione di annunci immobiliari nell'area di Agrigento, offrendo agli utenti strumenti e risorse utili per supportare le decisioni legate all'acquisto o all'affitto di una proprietà.",
+      techTitle: "Real Estate Web App",
       detailsTitle: "Challenge",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: "../images/ui-project-1.jpg",
+          img: require('static/new-images/list.png')
         },
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: "../images/web-project-1.jpg",
+          img: require('static/new-images/estate.png')
         },
         {
           id: uuidv4(),
           title: "Uber Project Management UI",
-          img: "../images/web-project-2.jpg",
+          img: require('static/new-images/difalco-website2.png'),
         },
       ],
       companyInfos: [
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Immobiliare di Falco",
         },
         {
           id: uuidv4(),
@@ -49,7 +49,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://www.difalcoimmobiliare.it",
         },
         {
           id: uuidv4(),
@@ -58,30 +58,30 @@ export const state = () => ({
         },
       ],
       technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "Javascript",
+        "Php",
+        "Auth0",
         "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Codeigniter",
+        "Bootstrap5"
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Di Falco Immobiliare è un'agenzia immobiliare che opera nel settore da oltre 10 anni. Il team di professionisti del settore immobiliare, legale e tecnico, gestisce il tuo cespite immobiliare. Il sito web dell'agenzia è stato sviluppato con stack tecnologici come Javascript, PHP, Vue.js, Vuex, Codeigniter, Auth0. Il sito web è accessibile tramite https://www.difalcoimmobiliare.it/admin. L'agenzia è specializzata nella ricerca, locazione e compravendita di immobili. La società si contraddistingue per la sua serietà, professionalità e riservatezza. La Falco Immobiliare è nel settore immobiliare da oltre 30 anni ed è leader nella ricerca di immobili.",
+            "Il sito web Immobiliare di Falco è una piattaforma digitale che consente all'agenzia di gestire il proprio database di immobili e interagire in modo efficiente con i propri clienti. Sviluppato con JavaScript, Php, NuxtCodeigniter, Auth0 e database MySql",
         },
         {
           id: uuidv4(),
           details:
-            "Il progetto utilizza un stack tecnologico composto da Javascript, PHP, Vue.js, Vuex, Codeigniter, Auth0 e MySQL. Vue.js è utilizzato per la creazione dell'interfaccia utente e per la gestione dello stato dell'applicazione. PHP è utilizzato per la creazione di API RESTful per l'accesso ai dati del database MySQL. Codeigniter è utilizzato come framework PHP per la creazione di API RESTful. Vuex è utilizzato per la gestione dello stato dell'applicazione lato client. Auth0 è utilizzato per l'autenticazione e l'autorizzazione degli utenti. MySQL è utilizzato come database per la memorizzazione dei dati degli immobili e delle informazioni sui clienti. In sintesi, il progetto utilizza un'architettura full-stack che combina tecnologie lato client e lato server per fornire un'esperienza utente fluida e una gestione efficiente dei dati.",
+            "Quando un utente accede al nostro sito web, ha la possibilità di cercare immobili in vendita o in affitto utilizzando una vasta gamma di filtri e opzioni di ricerca. Grazie alla nostra efficiente piattaforma, i risultati vengono restituiti in modo tempestivo, offrendo una selezione di immobili corrispondenti ai criteri desiderati. Tutti i dati relativi agli immobili sono memorizzati nel nostro affidabile database MySQL, che contiene informazioni dettagliate sulle caratteristiche, i prezzi, le ubicazioni e i contatti."
+        },
+        {
+          id: uuidv4(),
+          details:
+            "L'utente ha la comodità di visualizzare schede complete per ciascun immobile di interesse, con tutte le informazioni necessarie. Inoltre, abbiamo implementato nuove funzionalità che permettono agli utenti di richiedere appuntamenti per visitare gli immobili direttamente tramite il sito web. Semplicemente selezionando l'immobile desiderato, gli utenti possono scegliere una data e un orario di visita e inviare la richiesta all'agenzia responsabile. Oltre a ciò, offriamo anche la possibilità agli utenti di inviare la propria scheda immobile, qualora abbiano una proprietà da vendere o affittare. Utilizzando un modulo appositamente progettato, gli utenti possono inserire tutte le informazioni pertinenti sulla loro proprietà e inviarle direttamente alle agenzie partner tramite il nostro sito web. Con queste nuove funzionalità, il nostro sito web offre un'esperienza completa e interattiva, consentendo agli utenti di cercare, visualizzare, richiedere appuntamenti e persino inviare le proprie schede immobiliari, tutto in un unico luogo comodo e intuitivo.",
         },
         /*
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
-        },
         {
           id: uuidv4(),
           details:
@@ -118,32 +118,33 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdc",
-      title: "Immobiliare di Falco",
-      category: "Mobile Application",
-      img: "images/difalco-website.png",
+      title: "CP Immobiliare di Falco",
+      category: "CMS Agenzia Immobilare",
+      img: require('static/new-images/difalco-auth.png'),
       publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
-      clientTitle: "About Client",
+      tag: "CMS / UI / javascipt/ Frontend / Nuxt / Vuex / Api / Php / Codeigniter / Auth0",
+      clientTitle: "Immobiliare di Falco",
       objectivesTitle: "Objective",
       objectivesDetails:
-        "L'obiettivo del progetto è quello di fornire un'esperienza utente intuitiva e una gestione efficiente degli immobili, migliorando così al fruibilità dell'Agenzia",
+        "Consente all'agenzia Immobiliare di Falco di mantenere aggiornato il proprio database immobiliare, monitorare le prestazioni, analizzare i dati e pianificare le strategie di ottimizzazione più efficaci per il sito web.",
+      techTitle: "Real Estates Control Panel",
       detailsTitle: "Challenge",
       socialTitle: "Share This",
       projectImages: [
         {
           id: uuidv4(),
           title: "Phoenix Digital Agency",
-          img: require("@/static/images/difalco-website4.png"),
+          img: require('static/new-images/home-admin.png')
         },
         {
           id: uuidv4(),
           title: "Phoenix Digital Agency",
-          img: require("@/static/images/difalco-website2.png"),
+          img: require('static/new-images/home-admin1.png')
         },
         {
           id: uuidv4(),
           title: "Phoenix Digital Agency",
-          img: require("@/static/images/difalco-website3.png"),
+          img: require('static/new-images/home-admin2.png')
         },
       ],
       companyInfos: [
@@ -169,23 +170,46 @@ export const state = () => ({
         },
       ],
       technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Nuxtjs",
+        "Codeigniter",
+        "Auth0",
+        "Bootstrap"
       ],
       projectDetails: [
         {
           id: uuidv4(),
           details:
-            "Di Falco Immobiliare sia stato sviluppato con stack tecnologici come Javascript, PHP, Vue.js, Vuex, Codeigniter, Auth0 e che utilizzi un database MySQL. Quando un utente accede al sito web, può cercare immobili in vendita o in affitto. I dati degli immobili sono memorizzati nel database MySQL. Quando l'utente effettua una ricerca, il sito web interroga il database MySQL per trovare gli immobili corrispondenti ai criteri di ricerca dell'utente. L'utente può visualizzare i dettagli degli immobili e contattare l'agenzia per ulteriori informazioni. L'agenzia può gestire i dati degli immobili, aggiungere nuovi immobili, modificare o eliminare gli immobili esistenti tramite l'interfaccia di amministrazione del sito web. Il database MySQL memorizza tutti i dati degli immobili e le informazioni sui clienti. In questo modo, l'agenzia può gestire facilmente il proprio inventario di immobili e fornire un servizio migliore ai propri clienti.",
+            "Il Pannello di Controllo di Immobiliare di Falco rappresenta una potente risorsa per le agenzie immobiliari, offrendo un sistema centralizzato e controllato per gestire tutte le attività e i dati del sito web. Attraverso la sua intuitiva interfaccia utente, l'agenzia può svolgere una serie di operazioni essenziali, tra cui:",
         },
         {
           id: uuidv4(),
           details:
-          "L'obiettivo principale del progetto è stato quello di creare un sito web per l'agenzia web che offra un'esperienza utente intuitiva e una gestione efficiente dei dati. Il sito web deve essere progettato per soddisfare le esigenze dell'agenzia web e dei suoi clienti, fornendo informazioni dettagliate sui servizi offerti e sui progetti completati. Inoltre, il sito web deve essere progettato per essere facilmente aggiornabile e gestibile dall'agenzia web, utilizzando tecnologie come Nuxt.js e Javascript per la creazione dell'interfaccia utente e Codeigniter PHP come framework per la creazione di API RESTful per l'accesso ai dati del database MySQL. L'obiettivo del progetto è quello di fornire un sito web professionale e funzionale che aiuti l'agenzia web a raggiungere i suoi obiettivi di business e a fornire un servizio di alta qualità ai suoi clienti.",
+          "• Aggiungere nuovi immobili al database con procedure guidate e veloci. È possibile specificare dettagli cruciali come l'ubicazione, le caratteristiche, il prezzo, le immagini e una descrizione completa."
+        },
+        {
+          id: uuidv4(),
+          details:
+          "• Effettuare modifiche o aggiornamenti ai dettagli di qualsiasi immobile esistente in modo semplice e rapido. È possibile modificare il prezzo, le caratteristiche, le descrizioni, le immagini, gli indirizzi e altre informazioni in qualsiasi momento.",
+        },
+        {
+          id: uuidv4(),
+          details:
+          "• Eseguire operazioni di massa su gruppi di immobili, come l'aggiornamento simultaneo dei prezzi in tutta l'offerta, per un efficiente aggiornamento dei dati.",
+        },
+        {
+          id: uuidv4(),
+          details:
+          "• Utilizzare potenti filtri, opzioni di ordinamento e strumenti di ricerca per individuare rapidamente qualsiasi immobile all'interno del database.",
+        },
+        {
+          id: uuidv4(),
+          details:
+          "• Gestire le autorizzazioni degli utenti per limitare l'accesso a specifiche aree del Pannello di Controllo.",
+        },        
+        {
+          id: uuidv4(),
+          details:
+            "Inoltre, il Pannello di Controllo garantisce una gestione coerente, coordinata e basata sui dati per tutte le attività del sito web. Permette all'agenzia di mantenere il proprio database immobiliare sempre aggiornato, monitorare le prestazioni, analizzare i dati e pianificare le strategie di ottimizzazione più efficaci per il sito web. Con questa soluzione all'avanguardia, le agenzie immobiliari possono gestire in modo efficiente e strategico il proprio sito web per massimizzare il successo e fornire una migliore esperienza agli utenti",
         },
         /*
         {
@@ -229,9 +253,9 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
-      title: "Project Management UI",
+      title: "Shopping Play",
       category: "UI/UX Design",
-      img: "images/ui-project-1.jpg",
+      img: require('static/new-images/shop-home.png'),
       publishDate: "Nov 04, 2021",
       tag: "UI / Frontend",
       clientTitle: "About Client",
@@ -292,12 +316,12 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Il sito web https://shoppingplay.netlify.app/ utilizza uno stack tecnologico composto da Vue.js, Vuex e IndexedDB per la creazione dell'interfaccia utente e la gestione dello stato dell'applicazione. Vue.js è utilizzato per la creazione di componenti riutilizzabili e per la gestione dello stato dell'applicazione. Vuex è utilizzato per la gestione dello stato dell'applicazione lato client. IndexedDB è utilizzato come database per la memorizzazione dei dati dell'applicazione. Il sito web è progettato per offrire un'esperienza utente fluida e una gestione efficiente dei dati, consentendo agli utenti di cercare e acquistare prodotti in modo facile e intuitivo. In sintesi, il sito web utilizza un'architettura full-stack che combina tecnologie lato client e lato server per fornire un'esperienza utente intuitiva e una gestione efficiente dei dati.",
+            "Vue è stato scelto come framework front-end per la sua facilità di apprendimento, reattività e supporto all'integrazione di Vuex per la gestione dello stato degli articoli. Vue, Vuex e IndexedDB consentono una gestione reattiva, centralizzata ed efficiente dei dati degli articoli per l'intera applicazione. Lo stato degli articoli è memorizzato in Vuex, mentre i dati permanenti sono archiviati in IndexedDB. Le modifiche a Vuex vengono propagate ad IndexedDB e viceversa, garantendo coerenza.",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "• Lo stack tecnologico Vue, Vuex e IndexedDB consente una gestione dei dati degli articoli reattiva, centralizzata, coerente ed efficace per l'intera applicazione. I dati sono disponibili in qualsiasi punto dell'app senza dover ricaricare o riconsultare il database. L'aggiunta, la modifica o l'eliminazione di un articolo provoca la modifica dello stato in Vuex, che quindi aggiorna il database IndexedDB. Tutte le modifiche ai dati degli articoli sono così memorizzate in modo permanente.",
         },
         {
           id: uuidv4(),
@@ -339,9 +363,9 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
-      title: "Cloud Storage Platform",
-      category: "UI/UX Design",
-      img: "images/ui-project-2.jpg",
+      title: "Nodejs Notification System",
+      category: "Backend/Nodejs",
+      img: require('static/images/domini-home.png'),
       publishDate: "Nov 04, 2021",
       tag: "Web / Frontend",
       clientTitle: "About Client",
@@ -355,16 +379,128 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Cloud Storage Platform",
+          img: require('static/images/domini-login.png'),
+        },
+        {
+          id: uuidv4(),
+          title: "Cloud Storage Platform",
+          img: require('static/images/domini-notif1.png'),
+        },
+        {
+          id: uuidv4(),
+          title: "Cloud Storage Platform",
+          img: "../images/mobile-project-2.jpg",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Company Ltd",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://company.com",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "555 8888 888",
+        },
+      ],
+      technologies: [
+        "Javascript",
+        "Nodejs",
+        "Cron",
+        "Nodemailer",
+        "PWA",
+        "React",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Il progetto di calendario task nasce dall'esigenza di disporre di un tool centralizzato per pianificare e gestire le attività quotidiane. Nuxt è stato scelto come framework server-side render per offrire un'esperienza utente rapida e reattiva. Tailwind CSS fornisce una personalizzazione granulare del design senza bloccare il layout. I dati delle task (titolo, descrizione, data di scadenza, priorità, ecc.) sono memorizzati in LocalStorage e non su un database. L'utente può aggiungere, completare, posticipare e cancellare le proprie task attraverso un'interfaccia intuitiva. Le task vengono visualizzate come eventi sul calendario e raggruppate per giorno per avere sempre una panoramica del proprio planning. Il progetto mira a semplificare la produttività e il raggiungimento degli obiettivi giornalieri attraverso un unico tool progettato per essere minimalista, reattivo e incentrato sul flusso di lavoro dell'utente. La scelta di Nuxt, Tailwind CSS e LocalStorage consente un'esperienza task-management reattiva ed efficace, mantenendo al contempo una bassa complessità tecnologica ed elevata personalizzazione. Rileviamo i punti chiave sulle tecnologie (Nuxt, Tailwind CSS, LocalStorage), gestione dei dati e obiettivi del progetto al fine di fornire una descrizione concisa senza perdere in rilevanti dettagli.",
+        },
+        /*
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        */
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/in/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com",
+        },
+      ],
+    },
+    {
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
+      title: "Gestionale Supremacy",
+      category: "Mobile Application",
+      img: require('static/images/suprem-dashb.png'),
+      publishDate: "Nov 04, 2021",
+      tag: "UI / Mobile",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Il progetto di calendario task nasce dall'esigenza di disporre di un tool centralizzato per pianificare e gestire le attività quotidiane. Nuxt è stato scelto come framework server-side render per offrire un'esperienza utente rapida e reattiva. Tailwind CSS fornisce una personalizzazione granulare del design senza bloccare il layout. I dati delle task (titolo, descrizione, data di scadenza, priorità, ecc.) sono memorizzati in LocalStorage e non su un database. L'utente può aggiungere, completare, posticipare e cancellare le proprie task attraverso un'interfaccia intuitiva. Le task vengono visualizzate come eventi sul calendario e raggruppate per giorno per avere sempre una panoramica del proprio planning. Il progetto mira a semplificare la produttività e il raggiungimento degli obiettivi giornalieri attraverso un unico tool progettato per essere minimalista, reattivo e incentrato sul flusso di lavoro dell'utente. La scelta di Nuxt, Tailwind CSS e LocalStorage consente un'esperienza task-management reattiva ed efficace, mantenendo al contempo una bassa complessità tecnologica ed elevata personalizzazione. Rileviamo i punti chiave sulle tecnologie (Nuxt, Tailwind CSS, LocalStorage), gestione dei dati e obiettivi del progetto al fine di fornire una descrizione concisa senza perdere in rilevanti dettagli.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Uber Social App",
           img: "../images/web-project-1.jpg",
         },
         {
           id: uuidv4(),
-          title: "Cloud Storage Platform",
+          title: "Uber Social App",
           img: "../images/web-project-2.jpg",
         },
         {
           id: uuidv4(),
-          title: "Cloud Storage Platform",
+          title: "Uber Social App",
           img: "../images/mobile-project-2.jpg",
         },
       ],
@@ -402,8 +538,9 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Vue e Firebird costituiscono lo stack tecnologico scelto per l'implementazione dell'architettura di autenticazione utente. Vue è stato selezionato come framework front-end per la sua facilità d'uso, reattività e integrazione con i plugin necessari. Firebird è un database relazionale utilizzato per memorizzare in modo permanente i token di accesso e refresh degli utenti autenticati. Il sistema memorizza i token su Firebird utilizzando una tabella dedicata e una strategia di mapping O/R (Object-Relational) per mantenerne l'integrità. Abbiamo aggiornato i paragrafi relativi al framework front-end scelto, al database e alla strategia di memorizzazione permanente dei dati per Riflettere lo stack Vue e Firebird anziché Nuxt e soluzione basata su database. Il riepilogo della Architettura e degli obiettivi dell'autenticazione rimane pertanto invariato. Controlla che questa versione aggiornata della descrizione rifletta correttamente le tecnologie scelte (Vue, Firebird) e l'approccio generale al progetto. Sono disponibile a fornire ulteriori modifiche per migliorare la chiarezza e l'accuratezza dei contenuti.",
         },
+        /*
         {
           id: uuidv4(),
           details:
@@ -419,6 +556,7 @@ export const state = () => ({
           details:
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
         },
+        */
       ],
       socialSharings: [
         {
@@ -448,10 +586,10 @@ export const state = () => ({
       ],
     },
     {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdm",
-      title: "Uber Social App",
-      category: "Mobile Application",
-      img: "images/mobile-project-1.jpg",
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
+      title: "My Todo",
+      category: "Web Application",
+      img: require('static/images/todo1.png'),
       publishDate: "Nov 04, 2021",
       tag: "UI / Mobile",
       clientTitle: "About Client",
@@ -464,17 +602,17 @@ export const state = () => ({
       projectImages: [
         {
           id: uuidv4(),
-          title: "Uber Social App",
+          title: "Apple Design System",
           img: "../images/web-project-1.jpg",
         },
         {
           id: uuidv4(),
-          title: "Uber Social App",
+          title: "Apple Design System",
           img: "../images/web-project-2.jpg",
         },
         {
           id: uuidv4(),
-          title: "Uber Social App",
+          title: "Apple Design System",
           img: "../images/mobile-project-2.jpg",
         },
       ],
@@ -559,9 +697,9 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Apple Design System",
+      title: "Test Project",
       category: "Web Application",
-      img: "images/web-project-1.jpg",
+      img: require('static/images/todo1.png'),
       publishDate: "Nov 04, 2021",
       tag: "UI / Mobile",
       clientTitle: "About Client",
@@ -714,11 +852,11 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+      bio: "Sistemista per più di vent’anni e appassionato di tecnologie web sin dai primi anni 2000, con una profonda esperienza nello sviluppo di applicazioni web dinamiche in php e database relazionali, oltre che nell’approfondimento del linguaggio Javascript e dell’interazione con il backend attraverso Ajax. Dal 2018 ho abbracciato lo sviluppo di Node.js e delle librerie Vuejs e React, nonchè del framework Nuxt.js. Alla ricerca di nuovi stimoli e spunti, curioso e attento agli ultimi sviluppi che l'IA sta facendo in molti campi, sopratutto nellla nuova offerta di formidabili strumenti di sviluppo tutti in itinere.",
     },
     {
       id: uuidv4(),
-      bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+      /*bio: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",*/
     },
   ],
   copyrightDate: new Date().getFullYear(),

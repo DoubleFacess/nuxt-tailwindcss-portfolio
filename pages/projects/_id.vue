@@ -1,35 +1,11 @@
-<script>
-import feather from "feather-icons";
-import ProjectRelatedProjects from "../../components/projects/ProjectRelatedProjects.vue";
-export default {
-  scrollToTop: true,
-  data: () => {
-    return {
-      // @todo
-    };
-  },
-  computed: {
-    project() {
-      return this.$store.getters.getProjectById(this.$route.params.id);
-    },
-  },
-  mounted() {
-    feather.replace();
-  },
-  updated() {
-    feather.replace();
-  },
-  components: { ProjectRelatedProjects },
-};
-</script>
-
 <template>
   <div class="container mx-auto">
     <!-- Check if there are projects and then load -->
     <div v-if="project">
       <!-- Project heading and meta info -->
       <div>        
-        <p
+        <a 
+          :href="externalLink(project)"          
           class="
             font-general-medium
             text-left text-3xl
@@ -42,8 +18,8 @@ export default {
             mb-7
           "
         >
-          <!--<nuxt-link :to="project.url">-->{{ project.title }}
-        </p>
+          {{ project.title }}
+        </a>
         <div class="flex">
           <div class="flex items-center mr-10">
             <i
@@ -258,5 +234,43 @@ export default {
     </div>
   </div>
 </template>
+<script>
+
+import feather from "feather-icons"
+import ProjectRelatedProjects from "../../components/projects/ProjectRelatedProjects.vue"
+
+export default {
+  scrollToTop: true,
+  components: { ProjectRelatedProjects },
+  data: () => {
+    return {
+      // @todo
+    }
+  },
+  computed: {
+    project() {
+      return this.$store.getters.getProjectById(this.$route.params.id)
+    },
+    url(obj) {
+      return this.externalLink(obj)
+    }
+  },
+  mounted() {
+    feather.replace()
+    this.externalLink(this.project)
+  },
+  updated() {
+    feather.replace()
+  },
+  
+  methods: {
+    externalLink(obj) {
+      return obj.url
+    }
+  }
+  
+}
+</script>
+
 
 <style lang="scss" scoped></style>
