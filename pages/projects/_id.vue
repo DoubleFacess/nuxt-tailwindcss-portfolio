@@ -5,7 +5,8 @@
       <!-- Project heading and meta info -->
       <div>        
         <a 
-          :href="externalLink(project)"          
+          :href="externalLink(project)"
+          target="_blank"
           class="
             font-general-medium
             text-left text-3xl
@@ -57,18 +58,21 @@
       </div>
       <!-- Project gallery -->
       <div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
-        <!--<nuxt-link :to="project.url">-->
+        <!--<nuxt-link :to="project.url">-->        
         <div
           class="mb-10 sm:mb-0"
           v-for="projectImage in project.projectImages"
           :key="projectImage.id"
         >
-          <img
-            :src="projectImage.img"
-            class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-          />
+          <a :href="externalLink(project)" target="_blabk">
+            <img
+              :src="projectImage.img"
+              class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
+            />
+           </a>
         </div>
       </div>
+      
       <!-- Project info -->
       <div class="block sm:flex gap-0 sm:gap-10 mt-14">
         <!-- Single project left section details -->
