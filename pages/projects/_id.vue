@@ -111,6 +111,22 @@
                   >{{ info.details }}</a
                 >
               </li>
+              <li
+                v-if="project.github_url"
+                class="
+                  font-general-regular
+                  text-ternary-dark
+                  dark:text-ternary-light
+                "
+              >
+                <a
+                  href="#"
+                  :class="Website"
+                  aria-label="Project website and phone"
+                >
+                  <span>Git Hub: {{ project.github_url }}: </span>
+                </a>
+              </li>
             </ul>
           </div>
 

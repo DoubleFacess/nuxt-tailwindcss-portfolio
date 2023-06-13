@@ -44,8 +44,8 @@ export const state = () => ({
         },
         {
           id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
+          title: "Agenzia Immobilare",
+          details: "Compravendita di immobili",
         },
         {
           id: uuidv4(),
@@ -54,8 +54,8 @@ export const state = () => ({
         },
         {
           id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          title: "Telefono",
+          details: "+39 3357605541",
         },
       ],
       technologies: [
@@ -122,7 +122,7 @@ export const state = () => ({
       title: "CP Immobiliare di Falco",
       category: "CMS Agenzia Immobilare",
       img: require('static/new-images/difalco-auth.png'),
-      url: 'https://www.difalcoimmobiliare.it',
+      url: 'https://www.difalcoimmobiliare.it/admin',
       publishDate: "Nov 04, 2021",
       tag: "CMS / UI / javascipt/ Frontend / Nuxt / Vuex / Api / Php / Codeigniter / Auth0",
       clientTitle: "Immobiliare di Falco",
@@ -130,7 +130,7 @@ export const state = () => ({
       objectivesDetails:
         "Consente all'agenzia Immobiliare di Falco di mantenere aggiornato il proprio database immobiliare, monitorare le prestazioni, analizzare i dati e pianificare le strategie di ottimizzazione più efficaci per il sito web.",
       techTitle: "Real Estates Control Panel",
-      detailsTitle: "Challenge",
+      detailsTitle: "Visione",
       socialTitle: "Share This",
       projectImages: [
         {
@@ -153,26 +153,26 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Immobiliare di Falco",
         },
         {
           id: uuidv4(),
-          title: "Services",
-          details: "UI Design & Frontend Development",
+          title: "Agenzia Immobilare",
+          details: "Compravendita di immobili",
         },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://www.difalcoimmobiliare.it",
         },
         {
           id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          title: "Telefono",
+          details: "+39 3357605541",
         },
       ],
       technologies: [
-        "Nuxtjs",
+        "Vuejs",
         "Codeigniter",
         "Auth0",
         "Bootstrap"
@@ -256,11 +256,12 @@ export const state = () => ({
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdy",
       title: "Shopping Play",
-      category: "UI/UX Design",
+      category: "Web App",
       img: require('static/new-images/shop-home.png'),
-      url: 'https://www.difalcoimmobiliare.it',
+      url: 'https://shoppingplay.netlify.app/',
+      github_url: 'https://github.com/TrevorReznick/vue-shopping-cart',
       publishDate: "Nov 04, 2021",
-      tag: "UI / Frontend",
+      tag: "Frontend / Vuetify / Vue / Api / IndexedDb / Vuex",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -299,7 +300,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://shoppingplay.netlify.app",
         },
         {
           id: uuidv4(),
@@ -311,9 +312,10 @@ export const state = () => ({
         "HTML",
         "CSS",
         "JavaScript",
-        "Nuxt.js",
-        "TailwindCSS",
-        "AdobeXD",
+        "Vuejs",
+        "Vuetify",
+        "Vuex",
+        "IndexedDb"
       ],
       projectDetails: [
         {
@@ -371,7 +373,7 @@ export const state = () => ({
       img: require('static/images/domini-home.png'),
       url: 'https://www.difalcoimmobiliare.it',
       publishDate: "Nov 04, 2021",
-      tag: "Web / Frontend",
+      tag: "Backend / Nodejs / OOP/ PWA / React / Cron / Nodemailer",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -702,7 +704,118 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
-      title: "Test Project",
+      title: "ES6 Javascript Porting",
+      category: "Web Application",
+      img: require('static/images/todo1.png'),
+      url: 'https://www.difalcoimmobiliare.it',
+      publishDate: "Nov 04, 2021",
+      tag: "UI / Mobile",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/web-project-1.jpg",
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/web-project-2.jpg",
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/mobile-project-2.jpg",
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Company Ltd",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://company.com",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "555 8888 888",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Nuxt.js",
+        "TailwindCSS",
+        "AdobeXD",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/in/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com",
+        },
+      ],
+    },
+    {
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbb",
+      title: "Open jAjax Demo",
       category: "Web Application",
       img: require('static/images/todo1.png'),
       url: 'https://www.difalcoimmobiliare.it',
