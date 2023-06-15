@@ -17,7 +17,7 @@ export const state = () => ({
       objectivesDetails:
         "Piattaforma online che facilita la ricerca e l'accesso a una vasta selezione di annunci immobiliari nell'area di Agrigento, offrendo agli utenti strumenti e risorse utili per supportare le decisioni legate all'acquisto o all'affitto di una proprietà.",
       techTitle: "Real Estate Web App",
-      detailsTitle: "Challenge",
+      detailsTitle: "Poduction",
       socialTitle: "Share This",
       projectImages: [
         {
@@ -181,7 +181,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Il Pannello di Controllo di Immobiliare di Falco rappresenta una potente risorsa per le agenzie immobiliari, offrendo un sistema centralizzato e controllato per gestire tutte le attività e i dati del sito web. Attraverso la sua intuitiva interfaccia utente, l'agenzia può svolgere una serie di operazioni essenziali, tra cui:",
+            "Il Pannello di Controllo di Immobiliare di Falco è il CMS dell'agenzia immobiliar, offrendo un sistema centralizzato e controllato per gestire tutte le attività e i dati del sito web. Attraverso la sua intuitiva interfaccia utente, l'agenzia può svolgere una serie di operazioni essenziali, tra cui:",
         },
         {
           id: uuidv4(),
@@ -196,7 +196,7 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-          "• Eseguire operazioni di massa su gruppi di immobili, come l'aggiornamento simultaneo dei prezzi in tutta l'offerta, per un efficiente aggiornamento dei dati.",
+          "• Eseguire operazioni di massa su gruppi di immobili, come l'aggiornamento simultaneo dello stato degli immobili, per un efficiente aggiornamento dei dati.",
         },
         {
           id: uuidv4(),
@@ -265,7 +265,7 @@ export const state = () => ({
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+        "Realizzare un applicazione shopping cart completa utilizzando il sistema di memorizzazione locale di indexedDb",
       techTitle: "Tools & Technologies",
       detailsTitle: "Challenge",
       socialTitle: "Share This",
@@ -273,17 +273,17 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Project Management UI",
-          img: "../images/mobile-project-1.jpg",
+          img: require('static/new-images/shop-list1.png')
         },
         {
           id: uuidv4(),
           title: "Project Management UI",
-          img: "../images/web-project-2.jpg",
+          img: require('static/new-images/shop-list2.png')
         },
         {
           id: uuidv4(),
           title: "Project Management UI",
-          img: "../images/mobile-project-2.jpg",
+          img: require('static/new-images/shop-list3.png')
         },
       ],
       companyInfos: [
@@ -321,22 +321,22 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Vue è stato scelto come framework front-end per la sua facilità di apprendimento, reattività e supporto all'integrazione di Vuex per la gestione dello stato degli articoli. Vue, Vuex e IndexedDB consentono una gestione reattiva, centralizzata ed efficiente dei dati degli articoli per l'intera applicazione. Lo stato degli articoli è memorizzato in Vuex, mentre i dati permanenti sono archiviati in IndexedDB. Le modifiche a Vuex vengono propagate ad IndexedDB e viceversa, garantendo coerenza.",
+            "Vue è il framework javascript famoso per la sua facilità di apprendimento, reattività e supporto all'integrazione di Vuex per la gestione dello stato degli articoli. Vue, Vuex e IndexedDB consentono una gestione reattiva, centralizzata ed efficiente dei dati degli articoli per l'intera applicazione. Lo stato degli articoli è memorizzato in Vuex, mentre i dati permanenti sono archiviati in IndexedDB. Le modifiche a Vuex vengono propagate ad IndexedDB e viceversa, garantendo coerenza.",
         },
         {
           id: uuidv4(),
           details:
-            "• Lo stack tecnologico Vue, Vuex e IndexedDB consente una gestione dei dati degli articoli reattiva, centralizzata, coerente ed efficace per l'intera applicazione. I dati sono disponibili in qualsiasi punto dell'app senza dover ricaricare o riconsultare il database. L'aggiunta, la modifica o l'eliminazione di un articolo provoca la modifica dello stato in Vuex, che quindi aggiorna il database IndexedDB. Tutte le modifiche ai dati degli articoli sono così memorizzate in modo permanente.",
+            "• Il framework Css qui utilizzato è Vuetify, libreria di componenti UI per Vue.js, un framework JavaScript per la creazione di interfacce utente offre un set completo di componenti predefiniti e temi stilizzati, consentendo agli sviluppatori di creare rapidamente interfacce utente moderne e reattive",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "Per testare l'applicazione, dalla home si possono aggiungere articoli al carrello della spesa; il sistema memorizzerà gli elementi selezionati, fornendo i subtotali relativi ad ogni articolo, totale ex tassazioe e post tassazione",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Todo: il sistema è da implementare con invio dell'ordine e relativo dettaglio al server, e in caso di esisto positivo bisognerà gestire l'esisto della risposta",
         },
       ],
       socialSharings: [
@@ -368,18 +368,18 @@ export const state = () => ({
     },
     {
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8ccc99",
-      title: "Nodejs Notification System",
+      title: "Nodejs PWA Notification System",
       category: "Backend/Nodejs",
       img: require('static/images/domini-home.png'),
-      url: 'https://www.difalcoimmobiliare.it',
+      url: 'https://www.dominiacency.com',
       publishDate: "Nov 04, 2021",
-      tag: "Backend / Nodejs / OOP/ PWA / React / Cron / Nodemailer",
+      tag: "Backend / Nodejs / MySql/ OOP/ PWA / React / Cron / Nodemailer",
       clientTitle: "About Client",
-      objectivesTitle: "Objective",
+      objectivesTitle: "Obiettivi",
       objectivesDetails:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.",
+        "Il progetto proposto consiste nello sviluppo di un backend basato su Node.js per gestire il sistema di notifiche push per Progressive Web App (PWA), email e notifiche da un'applicazione, utilizzando il paradigma di programmazione orientata agli oggetti (OOP).",
       techTitle: "Tools & Technologies",
-      detailsTitle: "Challenge",
+      detailsTitle: "Task",
       socialTitle: "Share This",
       projectImages: [
         {
@@ -402,22 +402,22 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Name",
-          details: "Company Ltd",
+          details: "Domini Agency S.R.L. ",
         },
         {
           id: uuidv4(),
           title: "Services",
-          details: "UI Design & Frontend Development",
+          details: "Social M. Management, Influencer Marketing",
         },
         {
           id: uuidv4(),
           title: "Website",
-          details: "https://company.com",
+          details: "https://www.dominiagency.com",
         },
         {
           id: uuidv4(),
-          title: "Phone",
-          details: "555 8888 888",
+          title: "Whattsup",
+          details: "+39 353 422 6003",
         },
       ],
       technologies: [
@@ -432,25 +432,33 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Il progetto di My Task Calendar nasce dall'esigenza di disporre di un tool centralizzato per pianificare e gestire le attività quotidiane sul lavoro. Nuxt è stato scelto come framework server-side render per offrire un'esperienza utente rapida e reattiva. Tailwind CSS fornisce una personalizzazione granulare del design senza bloccare il layout. I dati delle task (titolo, descrizione, data di scadenza, priorità, ecc.) sono memorizzati in LocalStorage e non su un database. L'utente può aggiungere, completare, posticipare e cancellare le proprie task attraverso un'interfaccia intuitiva. Le task vengono visualizzate come eventi sul calendario e raggruppate per giorno per avere sempre una panoramica del proprio planning. Il progetto mira a semplificare la produttività e il raggiungimento degli obiettivi giornalieri attraverso un unico tool progettato per essere minimalista, reattivo e incentrato sul flusso di lavoro dell'utente. La scelta di Nuxt, Tailwind CSS e LocalStorage consente un'esperienza task-management reattiva ed efficace, mantenendo al contempo una bassa complessità tecnologica ed elevata personalizzazione. Rileviamo i punti chiave sulle tecnologie (Nuxt, Tailwind CSS, LocalStorage), gestione dei dati e obiettivi del progetto al fine di fornire una descrizione concisa senza perdere in rilevanti dettagli.",
-        },
-        /*
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "Caratteristiche principali del progetto: ",         
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "• Node.js Backend: Utilizzeremo Node.js, un runtime JavaScript lato server, per creare il backend. Node.js offre un'architettura event-driven e asincrona, che è ideale per le applicazioni che richiedono un alto numero di connessioni simultanee come le notifiche push. ",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "• Gestione delle Notifiche PWA: Implementeremo il supporto per le notifiche push PWA, consentendo agli utenti di ricevere notifiche direttamente sulle loro app web progressive. Utilizzeremo i servizi di notifica push forniti dai browser come Firebase Cloud Messaging (FCM) per inviare le notifiche. ",
         },
-        */
+        {
+          id: uuidv4(),
+          details:
+            "• Invio di Email: Integreremo un servizio di invio email Nodemailer per consentire l'invio di notifiche tramite email. Sarà possibile personalizzare il contenuto delle email e includere collegamenti o informazioni pertinenti. Notifiche dall'Applicazione: ",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "• Creeremo un'API per consentire all'applicazione di inviare notifiche al backend. Questo consentirà all'applicazione di inviare notifiche personalizzate ai suoi utenti tramite il backend, utilizzando diversi canali come le notifiche push e le email. Gestione dell'autenticazione e dell'autorizzazione: Implementeremo un sistema di autenticazione e autorizzazione per garantire che solo gli utenti autorizzati possano inviare notifiche. Potrebbe includere l'uso di token JWT (JSON Web Token) per l'autenticazione e l'autorizzazione basata sui ruoli per controllare l'accesso alle funzionalità di invio delle notifiche.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "• Struttura OOP: Implementeremo una struttura orientata agli oggetti per organizzare il codice in classi e moduli riutilizzabili. Questo ci consentirà di gestire in modo efficiente le diverse funzionalità del sistema di notifiche e promuovere la manutenibilità del codice.",
+        }
       ],
       socialSharings: [
         {
@@ -544,25 +552,33 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Vue e Firebird costituiscono lo stack tecnologico scelto per l'implementazione dell'architettura di autenticazione utente. Vue è stato selezionato come framework front-end per la sua facilità d'uso, reattività e integrazione con i plugin necessari. Firebird è un database relazionale utilizzato per memorizzare in modo permanente i token di accesso e refresh degli utenti autenticati. Il sistema memorizza i token su Firebird utilizzando una tabella dedicata e una strategia di mapping O/R (Object-Relational) per mantenerne l'integrità. Abbiamo aggiornato i paragrafi relativi al framework front-end scelto, al database e alla strategia di memorizzazione permanente dei dati per Riflettere lo stack Vue e Firebird anziché Nuxt e soluzione basata su database. Il riepilogo della Architettura e degli obiettivi dell'autenticazione rimane pertanto invariato. Controlla che questa versione aggiornata della descrizione rifletta correttamente le tecnologie scelte (Vue, Firebird) e l'approccio generale al progetto. Sono disponibile a fornire ulteriori modifiche per migliorare la chiarezza e l'accuratezza dei contenuti.",
-        },
-        /*
-        {
-          id: uuidv4(),
-          details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+          "• Architettura client-server: Il progetto si basa su un'architettura client-server, dove il client rappresenta l'interfaccia utente del gioco online e il server gestisce la logica di backend e l'interazione con il database.",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+          "• JavaScript (ES5): Attualmente, il progetto è sviluppato utilizzando JavaScript nella versione ES5. Si tratta di una versione precedente rispetto ad ES6, ma offre comunque un'ampia gamma di funzionalità per la programmazione lato client. Saranno implementati concetti OOP come classi, oggetti e metodi per organizzare il codice in modo modulare e riutilizzabile.",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+          "• Librerie DRY: Durante lo sviluppo del progetto, si farà un tentativo di implementare librerie DRY per evitare la duplicazione del codice e promuovere la riusabilità. Le funzionalità comuni saranno estratte in moduli o classi separati, che potranno essere richiamati e utilizzati in diverse parti dell'applicazione senza la necessità di riscrivere il codice.",
         },
-        */
+        {
+          id: uuidv4(),
+          details:
+          "• PHP: Il lato server dell'applicazione sarà sviluppato utilizzando PHP per gestire la logica di backend. Saranno implementate funzionalità come la gestione delle richieste del client, l'elaborazione dei dati e l'interazione con il database MySQL.",
+        },
+        {
+          id: uuidv4(),
+          details:
+          "• Manipolazione del DOM: Utilizzeremo il DOM per interagire con l'interfaccia utente del gioco. La generazione di tabelle dinamiche sarà implementata sia sul lato frontend che sul lato backend. Saranno utilizzati metodi JavaScript per manipolare il DOM e creare tabelle dinamiche in base ai dati ricevuti dal server.",
+        },
+        {
+          id: uuidv4(),
+          details:
+          "• TODO: Porting allo stack JavaScript più moderno (ES6+): Poiché il progetto è rimasto incompiuto, è possibile considerare un futuro porting allo stack JavaScript più moderno, come ES6 o versioni successive. Il porting consentirà di beneficiare delle nuove funzionalità, delle migliorie di performance e della sintassi più avanzata offerta da ES6 e versioni successive.",
+        }
       ],
       socialSharings: [
         {

@@ -22,7 +22,7 @@
           {{ project.title }}
         </a>
         <div class="flex">
-          <div class="flex items-center mr-10">
+          <div class="flex items-center mr-10 pt-3">
             <i
               data-feather="clock"
               class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
@@ -38,7 +38,7 @@
               >{{ project.publishDate }}</span
             >
           </div>
-          <div class="flex items-center">
+          <div class="flex items-center pt-3">
             <i
               data-feather="tag"
               class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
