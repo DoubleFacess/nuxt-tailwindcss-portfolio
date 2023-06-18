@@ -612,7 +612,7 @@ export const state = () => ({
       title: "My Todo",
       category: "Web Application",
       img: require('static/images/todo1.png'),
-      url: 'https://www.difalcoimmobiliare.it',
+      url: 'https://todolist-96d98d.netlify.app/app',
       publishDate: "Nov 04, 2021",
       tag: "UI / Mobile",
       clientTitle: "About Client",
@@ -673,22 +673,22 @@ export const state = () => ({
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "L'applicazione ToDo List nasce dall'esigenza di avere un calendario di task o appuntamenti sul lavoro che faccio normalmente",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "Basato su Nuxtjs, il framework Css utilizzato è Tailwindcss, noto per la sua versatilità e la sua potenza, la memorizzazione dei dati avviene tramite i Local Storage; vuex viene utilizzato per la gestione dei contenuti dell'applicazione",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+            "La memorizzazione dei dati avviene tramite i Local Storage",
         },
         {
           id: uuidv4(),
           details:
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+            "Todo: implementare un sistema di memorizzazione multi browser, autenticazione"
         },
       ],
       socialSharings: [
