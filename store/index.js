@@ -940,6 +940,117 @@ export const state = () => ({
         },
       ],
     },
+    {
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbc",
+      title: "Bookshop",
+      category: "Web Application",
+      img: require('static/new-images/bookshop-home.png'),
+      url: 'http://bookshop-t.atwebpages.com/index.php',
+      publishDate: "Nov 04, 2021",
+      tag: "UI / Mobile",
+      clientTitle: "About Client",
+      objectivesTitle: "Objective",
+      objectivesDetails:
+        "Realizzazione di un sito web dinamico vendita di libri giuridici, banche dati specializzate, per fornire ai professionisti un'ampia gamma di risorse legali affidabili e di alta qualità.",
+      techTitle: "Tools & Technologies",
+      detailsTitle: "Challenge",
+      socialTitle: "Share This",
+      projectImages: [
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: require('static/new-images/bookshop-details.png')
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: "../images/web-project-2.jpg",
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: require('static/new-images/bookshop-details.png')
+        },
+      ],
+      companyInfos: [
+        {
+          id: uuidv4(),
+          title: "Name",
+          details: "Company Ltd",
+        },
+        {
+          id: uuidv4(),
+          title: "Services",
+          details: "UI Design & Frontend Development",
+        },
+        {
+          id: uuidv4(),
+          title: "Website",
+          details: "https://company.com",
+        },
+        {
+          id: uuidv4(),
+          title: "Phone",
+          details: "555 8888 888",
+        },
+      ],
+      technologies: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Nuxt.js",
+        "TailwindCSS",
+        "AdobeXD",
+      ],
+      projectDetails: [
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?",
+        },
+        {
+          id: uuidv4(),
+          details:
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.",
+        },
+      ],
+      socialSharings: [
+        {
+          id: uuidv4(),
+          name: "Twitter",
+          icon: "twitter",
+          url: "https://twitter.com/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "LinkedIn",
+          icon: "linkedin",
+          url: "https://linkedin.com/in/realstoman",
+        },
+        {
+          id: uuidv4(),
+          name: "Facebook",
+          icon: "facebook",
+          url: "https://facebook.com",
+        },
+        {
+          id: uuidv4(),
+          name: "Instagram",
+          icon: "instagram",
+          url: "https://instagram.com",
+        },
+      ],
+    },
   ],
   clientsHeading: "Some of the brands I worked with",
   clients: [

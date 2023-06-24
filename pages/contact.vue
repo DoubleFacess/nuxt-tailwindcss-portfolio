@@ -8,17 +8,17 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "Agrigento, Italia",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "enzonav@yahoo.it",
           icon: "mail",
         },
         {
           id: 3,
-          name: "555 8888 888",
+          name: "+39 3286485776",
           icon: "phone",
         },
       ],

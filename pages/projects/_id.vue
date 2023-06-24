@@ -120,7 +120,8 @@
                 "
               >
                 <a
-                  href="#"
+                  :href="project.github_url"
+                  target="_blank"
                   :class="Website"
                   aria-label="Project website and phone"
                 >
