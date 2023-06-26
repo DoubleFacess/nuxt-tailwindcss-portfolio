@@ -941,13 +941,13 @@ export const state = () => ({
       ],
     },
     {
-      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbc",
+      id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccbl",
       title: "Bookshop",
       category: "Web Application",
       img: require('static/new-images/bookshop-home.png'),
       url: 'http://bookshop-t.atwebpages.com/index.php',
       publishDate: "Nov 04, 2021",
-      tag: "UI / Mobile",
+      tag: "UI / Css / Dynamic Website / Php / Javascript",
       clientTitle: "About Client",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -959,17 +959,17 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Apple Design System",
-          img: require('static/new-images/bookshop-details.png')
-        },
-        {
-          id: uuidv4(),
-          title: "Apple Design System",
-          img: "../images/web-project-2.jpg",
+          img: require('static/new-images/bookshop-home.png'),
         },
         {
           id: uuidv4(),
           title: "Apple Design System",
           img: require('static/new-images/bookshop-details.png')
+        },
+        {
+          id: uuidv4(),
+          title: "Apple Design System",
+          img: require('static/new-images/bookshop-mission.png')
         },
       ],
       companyInfos: [
